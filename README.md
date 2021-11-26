@@ -136,3 +136,41 @@ finally:
 with open('file_path', 'w') as file:
     file.write('hello world !')
 
+```
+
+## 7. Mention the use of the split function in Python?
+
+## Answer
+
+Pythonda split() methodu listləri verilmiş şərtə əsasən bölür. Default olaraq(Əgər şərt verilməsə) listləri boşluğa əsasən bölür. Aşağıdakı nümunədə necə işlədiyini görmək olar.
+
+```py 
+
+text = 'geeks for geeks'
+  
+# boşluğa əsasən bölür
+print(text.split())
+  
+word = 'geeks, for, geeks'
+  
+# Vergülə əsasən bölür
+print(word.split(','))
+  
+word = 'geeks:for:geeks'
+  
+# Qoşa nöqtəyə əsasən bölür
+print(word.split(':'))
+  
+word = 'CatBatSatFatOr'
+  
+# t hərfinə əsasən bölür
+print(word.split('t'))
+
+```
+
+
+
+
+
+
+
