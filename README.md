@@ -95,3 +95,14 @@ converted_num = "{}".format(num)
 print(type(converted_num))
 
 ```
+
+## 4. What is Garbage Collection?
+
+## Answer
+
+* Pythonda Garbage Collection istifadə olunmayan obyektlərin depolanması üçün bir yerdir. Bu funksiya uzun müddət istifadə olunmayan obyektləri siradan çıxarır və yaddaşda yeni obyektlər üçün yer açır. Bunu komputerdə  recycling system(yenidən emal) prosesi kimi təsəvvür edə bilərsiniz. 
+
+
+
+
+  
