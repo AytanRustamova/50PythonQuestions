@@ -103,6 +103,13 @@ print(type(converted_num))
 * Pythonda Garbage Collection istifadə olunmayan obyektlərin depolanması üçün bir yerdir. Bu funksiya uzun müddət istifadə olunmayan obyektləri siradan çıxarır və yaddaşda yeni obyektlər üçün yer açır. Bunu komputerdə  recycling system(yenidən emal) prosesi kimi təsəvvür edə bilərsiniz. 
 
 
+## 5. How do you create your own package in Python?
+
+## Answer
+
+1. Əvvəlcə directory yaradırıq və ona package name veririk
+2. Sonra ora lazım olan funksiyaları və classları yerləşdiririk.
+3. Sonunda isə directory`nin içində init.py faylı yaradırıq ki, Python bu directory-nin  package olduğunu anlasın.
 
 
   
