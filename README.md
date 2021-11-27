@@ -292,7 +292,6 @@ foo()
   
 ```
 local
-
 ```
 
 * Məsələn yuxarıdakı kod parçasına baxdıqda y dəyəri funksiyanın içində yaranıb və içində də istifadə olunur. Əgər print funksiyası funsiyanın çölündə icra olunsaydı kod error verecekdi.
@@ -322,7 +321,7 @@ x outside: global
 
 ```
 
-* Bu misalda isə x global variable olduğu üçün yaranan bütün funksiyalarda istifadəsi mümkündür.
+* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.ad
 
 
 
