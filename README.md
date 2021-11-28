@@ -321,9 +321,27 @@ x outside: global
 
 ```
 
-* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.ad
+* Bu misalda isə x global variable olduğu üçün həm funksiyanın içində həm də çölündə istifadəsi mümkündür.
 
 
+
+## 11. What Are The Types of Objects Support in Python Language?
+
+* Pythonda sabit və dəyişən data tiplər vardır
+
+## Sabit data tiplər
+
+1. Strings
+2. Tuples
+3. Numbers
+
+## Dəyişən data tiplər
+
+1. Lists
+2. Dictionaries
+3. Sets
+
+* Sabit və dəyişən data tiplərinin fərqi ondadır ki, məsələn bir list verilmişdir a = ['Ayten', 'Rustemova', 22 ]. Sonradan a[2]= 25 kimi yazsaq listin 2ci indexindəki elementi dəyişə bilirik, amma bunu tuple, string, numbers kimi data tiplərdə bunu etmək mümkün deyil.
 
 
 
