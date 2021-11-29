@@ -591,3 +591,32 @@ Output: [3, 4, 8, 0, 5, 7, 6, 2, 1]
 
 ```
 
+## 26. What is a docstring?
+
+## Answer 
+
+* Docstring hər hansı bit funsiyanın və ya metodun daxilində yazılır. Və həmin funksiya/metodun nə etdiyini açıqlayır. Docstringlər 3 ədəd tək/cüt dırnaq arasında yazılır.
+
+```py
+
+
+def salam():
+    """
+    Bu funskiya ekrana salam yazısını çıxarır
+    """
+    print("salam")
+
+salam()
+
+```
+
+Funksiyanın docstringini görmək üçün doc atributu istifadə edilir.
+
+
+```py 
+
+print (salam.__doc__)
+
+
+```
+
