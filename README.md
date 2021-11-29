@@ -935,6 +935,16 @@ d[0] = 30 // <100>-ün reference count-u azalır
 
 
 
+## 38.  What is Monkey patching ?
+
+## Answer 
+
+* Hansısa classı və ya metodu sonradan dəyişmək prosesinə pythonda monkey patching deyilir. Bəzən böyük proyektlərdə işləyən zaman third-party bir kitabxananın bizin üçün əlverişli olmadığını görə bilirik. Bu zaman monkey patching istifadə edilə bilər.
+
+
+
+
+
 
 
 
