@@ -1100,6 +1100,13 @@ print(total)
 Output: 365
 
 
+## 47. What is the Difference Between Methods & Constructors?
+
+## Answer
+
+* Constructorları classların onurğası adlandıra bilərik. Class yaradarkən ilkin hansı atributlar lazım olacaqsa onları ora qeyd etməliyik. Methodlar isə sonradan əlavə olunan funksiyalar kimi başa düşə bilərik. 
+
+
 
   
 
