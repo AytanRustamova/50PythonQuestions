@@ -556,5 +556,18 @@ Output
 
 ```
 
+## 24. How would you randomize the contents of a list in-place?
 
+* Bunun üçün shuffle() methodundan istifadə olunur. 
+
+```py 
+
+from random import shuffle
+shuffle(mylist)
+mylist
+
+
+```
+
+Output: [3, 4, 8, 0, 5, 7, 6, 2, 1]
 
