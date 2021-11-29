@@ -1,8 +1,7 @@
-flist = []
-for i in range(3):
-    flist.append(lambda: i)
+l = ['Ayten', 'Rüstəm', 'Hüseyn']
+ 
 
-[f() for f in flist]
+l.extend(['Yusif', 'Araz', 'Aydan'])
+ 
 
-print(flist)
-
+print(l)

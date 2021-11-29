@@ -354,5 +354,50 @@ x outside: global
 * Pythonda Accessor`lar getter'lar deyə də adlanır. Hər hansısa bir value qaytaran funksiyalara accessorlar deyilir və əsasən dəyişilməyən valuelar olur. Mutatorlar isə setterlar olaraq adlanır. Bu funksiyalar isə adətən value dəyişmək üçün istifadə olunur. @property isə Pythonda bir decaratordur hansı ki, onun köməyi ilə bir funksiyanı funksiya atributu kimi istifadə edə bilirik. 
 
 
+## 14. Differentiate between append() and extend() methods.?
 
+* Bu iki method da list methodlarıdır və listə element əlavə etmək üçün istifadə olunur. 
+
+1. append() menthodu listin sonuna 1 element əlavə etmək üçündür. Bu method listin uzunluğunu bir vahid artırır. Aşağıda verilmiş nümunədə də görə bilərik ki, append methodu yalnız 1 arqument qəbul edir.
+
+```py 
+
+l = ['Ayten']
+ 
+l.append('Rustemova')
+l.append('22')
+ 
+print(l)
+
+```
+
+## Nəticə 
+
+```
+
+['Ayten', 'Rustemova', '22']
+
+```
+
+2. Extend() menthodu vasitəsilə isə eyni anda bir neçə dənə element əlavə edə bilirik. Bu method listin uzunluğunu əlavə edilən elementin sayına uyğun artırır.
+
+```py
+
+l = ['Ayten', 'Rüstəm', 'Hüseyn']
+ 
+
+l.extend(['Yusif', 'Araz', 'Aydan'])
+ 
+
+print(l)
+
+```
+
+
+## Nəticə 
+
+```
+['Ayten', 'Rüstəm', 'Hüseyn', 'Yusif', 'Araz', 'Aydan']
+
+```
 
