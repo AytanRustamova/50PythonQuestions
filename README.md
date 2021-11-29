@@ -477,3 +477,47 @@ Output - '1,2,3,4,5' (string return edir.)
 ``` 'example@gmail.com'.split('@') ```
 
 Output - ['example', 'gmail.com'] (list içərisində simvola görə ayrılmış string'ləri return edir.)
+
+
+## 21. What is multithreading? Give an example.
+
+* Multithreading mövzusu bir çox dillərdə olduğu kimi Pythonda da mövcuddur. Multithreading ən çox process mövzusu ilə qarışdırılır. Process ilə threadin fərqi ondadır ki, process mövzusunda bir kod parçası engine tərəfindən ardıcıl olaraq oxunur. Bir process`i bir neçə threadlərə ayıraraq kodun ardıcıl yox eyni zamanda işləməsinə şərait yaradırıq. Və bu zaman bir threadin işi bitibsə onun nəticəsi əvvəl veriləcək. Qısacası, kodlar ardıcıllıqda yox hansının işi tez bitirsə ona uyğun nəticə çıxaracaq. Təbii ki, bu  processlərin daha sürətli işləməsini təmin edir. Məsələn aşağıdakı nümunəyə baxsaq
+
+```py 
+
+import threading
+
+def calistir(threadName): 
+    for i in range(7):
+        print(threadName ,"işləyir")
+
+t1 = threading.Thread(target=run, args = ("thread-1", ))
+t2 = threading.Thread(target=run, args = ("thread-2", ))
+
+t1.start()
+t2.start()
+
+```
+
+
+## Nəticə 
+
+``` 
+thread-1 işləyir
+thread-1 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-2 işləyir
+thread-1 işləyir
+thread-1 işləyir
+thread-1 işləyir
+thread-1 işləyir
+thread-1 işləyir
+
+```
+
+* Thread-1 işləyərkən araya thread-2 də girib. Tam olaraq threadlər bu işi görür.
