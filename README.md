@@ -968,6 +968,18 @@ print("Removed country:",removedCountry)
 ```
 
 
+## 41. Explain split(), sub(), subn() methods of re module in Python.
+
+## Answer 
+* Pythonda stringləri dəyişməyin bir neçə yolu var. 
+
+1. split() - bu method regex pattern'ə uygun olaraq verilmiş şərtə görə stringi bölür
+2. sub() - bu methodda 2 parametr verilir, biri textdə dəyişmək istədiyiniz hissədir. Digəri isə dəyişmək istədiyiniz hissəyə nə qoymaq istəyirsiz.
+3. subn() - bu method da eyni sub methodu kimi işləyir, eyni zamanda nə qədər dəyişiklik edibsə onun sayın da göstərir.
+
+
+
+
 
 
 
