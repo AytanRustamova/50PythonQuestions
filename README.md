@@ -1004,6 +1004,8 @@ try:
 
 ## 44. Explain Inheritance in Python with an example.
 
+## Answer
+
 * Inheritance (varislik) bizə kodun təkrar istifadəsini təmin edir, proqram yaratmaq və saxlamağı asanlaşdırır. Bir class'a digər class'ın bütün atributlarını, metodlarını əldə etməyə kömək edir. Bu isə bizə eyni xüsusiyyətlərə sahib bir çox class'ı sadəcə bir dəfə yazaraq, digərləri ilə overwrite (üzərinə yazmaq) etməyə və ya yeni metod, atribut əlavə etməyə imkanı verir.
 
 Python bir neçə fərqli tipdə inheritance'ı dəstəkləyir:
@@ -1015,6 +1017,29 @@ Python bir neçə fərqli tipdə inheritance'ı dəstəkləyir:
 * Hybrid Inheritance - iki və ya daha çox inheritance növünün birləşməsidir.
 
 
+
+## 45. What is tuple unpacking?
+
+## Answer
+
+* Tuple bir sıra dəyərləri (values) bir siyayıda toplamaq üçün istifadə olunur. List'dən fərqi içindəki elementləri kənardan dəyişmək olmur, sabit siyahı formasıdır.
+
+```py 
+
+mytuple=3,4,5
+print(mytuple)
+
+```
+
+Bu nümunədə 3,4,5 ədədlərini tuple'a əlavə edirik.
+
+```py 
+x,y,z=mytuple
+print(x+y+z)
+
+```
+
+Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə mənimsədirik.
 
 
   
