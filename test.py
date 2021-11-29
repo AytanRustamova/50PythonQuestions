@@ -1,4 +1,4 @@
-if 'x' not in 'ayten':
-    print(False)
+a =  32 +'32'
 
+print(a)
     

@@ -859,6 +859,41 @@ Biz hər bir obyekti type() methodu ilə hansı data tip olduğunu müəyyənlə
 <class 'int'>
 
 
+## 34. What is the concatenation?
+
+* Pythonda '+' operatoru ilə stringəri, listləri bir birinə birləşdirmək üçün istifadə olunur.
+
+```py 
+ '32'+'32'
+```
+3232
+
+```py 
+
+ [1,2,3]+[4,5,6]
+
+```
+[1, 2, 3, 4, 5, 6]
+
+* Burda diqqət etməli olduğumuz mövzu fərqli ata tipdə olan valueları bir birilə birləşdirə bilmərik.
+
+```py 
+
+ (2,3)+(4)  # burda error verəcək çünki, 4 integer olduğu üçün list ilə birləşdirə bilmərik. 
+
+```
+
+* Bunun üçün aşağıdakı kimi yazmaq olar.
+
+```py 
+
+ (2,3)+(4,)
+
+```
+(2, 3, 4)
+
+
+
 
 
 
