@@ -813,6 +813,19 @@ Output: False
 
 ```
 
+## 32. How would you declare a comment in Python?
+
+## Answer
+
+* Pythonda comment'i '#' işarəsi ilə təyin edilir. 
+
+```py 
+
+# if name in my_list: 
+#     print("salam")
+
+```
+
 
 
 
