@@ -401,3 +401,10 @@ print(l)
 
 ```
 
+## 15. How will you remove last object from a list?
+
+
+## Answer
+
+* list.pop(obj=list[-1]) − pop metodu siyahıdan sonuncu elementi silir.
+
