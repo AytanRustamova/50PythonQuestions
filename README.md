@@ -410,12 +410,12 @@ print(l)
 
 
 
-## 15. What is TkInter?
+## 16. What is TkInter?
 
 * TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
 
 
-## 16. What is the output of the following?
+## 17. What is the output of the following?
 
 ```py 
 x = ['ab', 'cd']
@@ -428,7 +428,7 @@ print(len(map(list, x)))
 * Listin uzunluğu 2 olduğu üçün, 2 qaytaracaq.
 
 
-## 17. How to retrieve data from a table in MySQL database through Python code?
+## 18. How to retrieve data from a table in MySQL database through Python code?
 
 ## Answer
 
