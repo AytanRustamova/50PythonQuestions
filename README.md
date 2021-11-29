@@ -466,4 +466,14 @@ db.close()
 
 ## Answer
 
-* .join() metodu istənilən iterativ (sadalanan, list şəklində olan) elementi qəbul edir və onları müəyyən edilmiş simvolla ayırmağa kömək edir.
+* .join() metodu istənilən iterativ (sadalanan, list şəklində olan) elementi qəbul edir və onları müəyyən edilmiş simvollara ayırmağa kömək edir.
+
+``` ','.join('12345') ```
+
+Output - '1,2,3,4,5' (string return edir.)
+
+* .split() metodu təyin etdiyimiz simvol ətrafında string'ləri ayırır.
+
+``` 'example@gmail.com'.split('@') ```
+
+Output - ['example', 'gmail.com'] (list içərisində simvola görə ayrılmış string'ləri return edir.)
