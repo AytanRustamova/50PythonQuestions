@@ -826,7 +826,37 @@ Output: False
 
 ```
 
+## 33. How would you convert a string into an int in Python?
 
+## Answer 
+
+* Pythonda string data tipini int data tipinə çevirmək üçün int() methodundan istifadə edilir.
+
+```py 
+
+ int('227')
+
+```
+227
+
+Biz hər bir obyekti type() methodu ilə hansı data tip olduğunu müəyyənləşdirə bilərik. 
+
+```py 
+
+ type('227')
+
+```
+
+<class 'str'>
+
+
+```py 
+
+ type(int('227'))
+
+```
+
+<class 'int'>
 
 
 
