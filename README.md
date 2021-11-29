@@ -571,3 +571,23 @@ mylist
 
 Output: [3, 4, 8, 0, 5, 7, 6, 2, 1]
 
+
+
+## 25. What is slicing?
+
+## Answer 
+
+* Slice() metodu bizə stringi və ya list elementlərini hissələrə ayırmaq üçün istifadə olunur.
+
+```py 
+
+  (1,2,3,4,5)[2:4]
+        (3, 4)
+     [7,6,8,5,9][2:]
+        [8, 5, 9]
+     'Hello'[:-1]
+        'Hell'
+
+
+```
+
