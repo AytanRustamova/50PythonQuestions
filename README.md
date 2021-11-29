@@ -919,7 +919,11 @@ d[0] = 30 // <100>-ün reference count-u azalır
 
 ```
 
+## 36. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
 
+## Answer
+
+* Yuxarıdakı sualda qeyd etdiyimiz kimi -1 indexi listin daxilində sonuncu elementi təmsil edir. Bu halda bizim listimizdə sonuncu element 25 olduğu üçün, cavab 25 olacaqdır.
 
 
 
