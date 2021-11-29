@@ -647,3 +647,41 @@ last_name = 'Statler'
 print('My name is ' + first_name + ' ' + last_name)
 
 ```
+
+
+## 28. Explain the //, %, and ** operators in Python.
+
+## Answer
+
+// Bölünmə zamanı nəticənin integer hissəsini göstərir.
+
+```py 
+
+
+7 // 2
+
+3
+
+Normal bölünmə zamanı cavab 3.5 olmalı idi.
+
+
+```
+
+** Operatoru ədədin qüvvətini almaq üçündür. a üstü b almaq üçün a**b yazma lazımdır.
+
+```py 
+
+2**10
+
+1024
+
+```
+% Operatoru qalıqlı bölünmədə qalığı görmək üçün istifadə edilir.
+
+```py 
+
+13 % 7 
+
+6
+
+```
