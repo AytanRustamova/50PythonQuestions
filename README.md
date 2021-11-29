@@ -620,3 +620,30 @@ print (salam.__doc__)
 
 ```
 
+## 27. Is Python case-sensitive?
+
+## Answer
+
+Bəli Python case-sensitive bir dildir. Bunu HTML ilə müqayisə edə bilərik. HTML'də <p> ilə <P> eyni mənanı verir. Yalnız Python böyük və kiçik hərfləri tanıdığı üçün 'number' variable'ni başqa yerdə istifadə edərkən 'Number' yazsanız Python error verəcək. 
+
+```py 
+
+#Yalnış nümunə
+
+first_name = 'Tim'
+last_name = 'Statler'
+
+print('My name is ' + First_Name + ' ' + LAST_Name)
+
+```
+
+```py 
+
+# Doğru nümunə
+
+first_name = 'Tim'
+last_name = 'Statler'
+
+print('My name is ' + first_name + ' ' + last_name)
+
+```
