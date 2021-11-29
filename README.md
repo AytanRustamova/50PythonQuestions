@@ -987,6 +987,22 @@ d) a_b_c = 1,000,000
 ## Answer
 
 * Cavab B-dir. Çünki a və d bəndində abc variable'i təyin olunub və içində tuple var. c bəndində isə 3 variable təyin olunub və hərəsinə bir value verilib.
+
+
+## 43. What is the output of the following?
+
+```py
+try: 
+    if '1' != 1: 
+        raise
+```
+## Answer
+
+* Try catch'siz işləmədiyinə görə bu kod səhvdir, heç bir nəticə verməyəcək.
+
+
+
+
   
 
 
