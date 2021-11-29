@@ -325,7 +325,7 @@ x outside: global
 
 
 
-## 11. What Are The Types of Objects Support in Python Language?
+## 12. What Are The Types of Objects Support in Python Language?
 
 * Pythonda sabit və dəyişən data tiplər vardır
 
@@ -344,17 +344,17 @@ x outside: global
 * Sabit və dəyişən data tiplərinin fərqi ondadır ki, məsələn bir list verilmişdir a = ['Ayten', 'Rustemova', 22 ]. Sonradan a[2]= 25 kimi yazsaq listin 2ci indexindəki elementi dəyişə bilirik, amma bunu tuple, string, numbers kimi data tiplərdə bunu etmək mümkün deyil.
 
 
-## 12. Is Python object oriented? what is object oriented programming?
+## 13. Is Python object oriented? what is object oriented programming?
 
 * Bəli Python obyekt yönümlü proqramlaşdırmadır. Obyekt yönümlü proqramlaşdırma classlardan ibarət olan sistemdir. OOP`nin konseptləri: Encapsulation, İnheritance, Abstact, Polymorphism. OOPnin əsas məntiqi proyekti müəyyən hissələrə (classlara) ayırıb bir birindən asılı olmayan hala gətirməsidir. Bu həm bir proyekt üstündə bir neçə nəfərin rahat işləməsini təmin edir həm də gələcəkdə yeni funksiyalar əlavə etməyi və ya dəyişiklik etməyi asanlaşdırır.
 
 
-## 13. What are Accessors, mutators, @property?
+## 14. What are Accessors, mutators, @property?
 
 * Pythonda Accessor`lar getter'lar deyə də adlanır. Hər hansısa bir value qaytaran funksiyalara accessorlar deyilir və əsasən dəyişilməyən valuelar olur. Mutatorlar isə setterlar olaraq adlanır. Bu funksiyalar isə adətən value dəyişmək üçün istifadə olunur. @property isə Pythonda bir decaratordur hansı ki, onun köməyi ilə bir funksiyanı funksiya atributu kimi istifadə edə bilirik. 
 
 
-## 14. Differentiate between append() and extend() methods.?
+## 15. Differentiate between append() and extend() methods.?
 
 * Bu iki method da list methodlarıdır və listə element əlavə etmək üçün istifadə olunur. 
 
@@ -401,7 +401,7 @@ print(l)
 
 ```
 
-## 15. How will you remove last object from a list?
+## 16. How will you remove last object from a list?
 
 
 ## Answer
@@ -410,12 +410,12 @@ print(l)
 
 
 
-## 16. What is TkInter?
+## 17. What is TkInter?
 
 * TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
 
 
-## 17. What is the output of the following?
+## 18. What is the output of the following?
 
 ```py 
 x = ['ab', 'cd']
@@ -428,7 +428,7 @@ print(len(map(list, x)))
 * Listin uzunluğu 2 olduğu üçün, 2 qaytaracaq.
 
 
-## 18. How to retrieve data from a table in MySQL database through Python code?
+## 19. How to retrieve data from a table in MySQL database through Python code?
 
 ## Answer
 
@@ -461,3 +461,9 @@ myresult = mycursor.fetchall()
 db.close()
 
 ```
+
+## 20. Explain join() and split() in Python.
+
+## Answer
+
+* .join() metodu istənilən iterativ (sadalanan, list şəklində olan) elementi qəbul edir və onları müəyyən edilmiş simvolla ayırmağa kömək edir.
