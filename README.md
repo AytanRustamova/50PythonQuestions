@@ -1042,6 +1042,65 @@ print(x+y+z)
 Burada isə tuple'a atdığımız integer dəyərləri x,y,z dəyişənlərinə mənimsədirik.
 
 
+## 46. Explain a few methods to implement Functionally Oriented Programming in Python.
+
+## Answer
+
+* filter(): list üzərində istədiyimiz elementləri filter etməyə imkan yaradır.
+```py 
+
+list(filter(lambda x:x>5,range(8)))
+
+```
+Output: [6,7]
+
+* reduce() : bir nəticə alana qədər elementləri azaldır.
+
+```py 
+from functools import reduce
+
+def sum(a, b):
+    print(f"a={a}, b={b}, {a} + {b} ={a+b}")
+    return a + b
+
+
+scores = [75, 65, 80, 95, 50]
+total = reduce(sum, scores)
+print(total)
+
+```
+
+Output:
+
+```py 
+
+a=75, b=65, 75 + 65 = 140
+a=140, b=80, 140 + 80 = 220
+a=220, b=95, 220 + 95 = 315
+a=315, b=50, 315 + 50 = 365
+365
+
+
+```
+
+Lamda'dan istifadə edərək daha sadə yazsaq:
+
+```py 
+
+from functools import reduce
+
+scores = [75, 65, 80, 95, 50]
+
+total = reduce(lambda a, b: a + b, scores)
+
+print(total)
+
+```
+
+Output: 365
+
+
+
   
 
 
