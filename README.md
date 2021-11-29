@@ -952,6 +952,20 @@ file = open("c:\\sample.txt", "w")
 
 ```
 
+## 40. How will you remove last object from a list?
+
+## Answer 
+
+* pop() methodundan istifadə olunur.
+  
+```py 
+listOfCountries = ['India','China', 'Bhutan','Nepal']
+print("List Of Countries are:",listOfCountries)
+removedCountry = listOfCountries.pop()
+print("List Of Countries after removing last element:",listOfCountries)
+print("Removed country:",removedCountry)
+
+```
 
 
 
