@@ -537,8 +537,24 @@ print(dict)
 
 ```
 
+## 23. How do you get a list of all the keys in a dictionary?
 
+* Bunun üçün key() methodundan istifadə olunur. 
 
+```py 
+
+mydict={'a':1,'b':2,'c':3,'e':5}
+mydict.keys()
+print(dict_keys)
+
+```
+
+Output 
+
+```
+(['a', 'b', 'c', 'e'])
+
+```
 
 
 
