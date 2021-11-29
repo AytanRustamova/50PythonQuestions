@@ -1002,6 +1002,20 @@ try:
 
 
 
+## 44. Explain Inheritance in Python with an example.
+
+* Inheritance (varislik) bizə kodun təkrar istifadəsini təmin edir, proqram yaratmaq və saxlamağı asanlaşdırır. Bir class'a digər class'ın bütün atributlarını, metodlarını əldə etməyə kömək edir. Bu isə bizə eyni xüsusiyyətlərə sahib bir çox class'ı sadəcə bir dəfə yazaraq, digərləri ilə overwrite (üzərinə yazmaq) etməyə və ya yeni metod, atribut əlavə etməyə imkanı verir.
+
+Python bir neçə fərqli tipdə inheritance'ı dəstəkləyir:
+
+* Single Inheritance - bir class tək əsas class'dan inherit (miras) alır.
+* Multi-level (çoxsəviyyəli) Inheritance - class A əsas class Base-dən inherit alır, həmçinin class B də class A-dan inherit alır.
+* Hierarchical (ierarxik) inheritance – bir parent (valideyn) class'dan istənilən sayda child (uşaq) class inherit ala bilər.
+* Multiple Inheritance - bir child class birdən çox parent class'dan inherit ala bilər.
+* Hybrid Inheritance - iki və ya daha çox inheritance növünün birləşməsidir.
+
+
+
 
   
 
