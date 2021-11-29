@@ -521,3 +521,24 @@ thread-1 işləyir
 ```
 
 * Thread-1 işləyərkən araya thread-2 də girib. Tam olaraq threadlər bu işi görür.
+
+
+## 22. What is a dictionary in Python?
+
+## Answer 
+
+* Dictionary məlumatları key value şəklində saxlayan sırasız , dəyişkən data tipdir. Dictionarylər buruqlu mötərizə ilə ({}) yazılır. Məsələn məhsul və qiyməti kimi düşünmək olar. Burda key məhsuldur qiymət isə valuedir.
+
+```py 
+
+dict={'çanta':'50','şapka':'5','şalvar':'150'}
+
+print(dict)
+
+```
+
+
+
+
+
+
