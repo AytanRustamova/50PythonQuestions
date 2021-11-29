@@ -978,6 +978,16 @@ print("Removed country:",removedCountry)
 3. subn() - bu method da eyni sub methodu kimi işləyir, eyni zamanda nə qədər dəyişiklik edibsə onun sayın da göstərir.
 
 
+## 42. Which of the following is an invalid statement?
+
+a) abc = 1,000,000
+b) a b c = 1000 2000 3000
+c) a,b,c = 1000, 2000, 3000
+d) a_b_c = 1,000,000 
+## Answer
+
+* Cavab B-dir. Çünki a və d bəndində abc variable'i təyin olunub və içində tuple var. c bəndində isə 3 variable təyin olunub və hərəsinə bir value verilib.
+  
 
 
 
