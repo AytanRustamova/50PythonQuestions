@@ -783,6 +783,37 @@ if 'x' not in 'ayten':
 Output: False
 
 
+## 31. What data types does Python support?
+
+## Answer
+
+* Python bizə 5 növ data tipi təqdim edir.
+
+```py 
+
+     a=7.0
+     title="Ramayan's Book"
+     colors=['red','green','blue']
+     type(colors)
+        <class 'list'>
+     name=('Ramayan','Sharma')
+     name[0]='Avery'
+        Traceback (most recent call last):
+        File "<pyshell#129>, line 1, in <module> name[0]='Avery'
+        TypeError: 'tuple' object does not support item assignment # tuple kənardan dəyişdirilə bilmədiyi üçün TypeError verir.
+     squares={1:1,2:4,3:9,4:16,5:25}
+     type(squares)
+        <class 'dict'>
+     type({})
+        <class 'dict'>
+     squares={x:x**2 for x in range(1,6)}
+     squares
+        {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+
+```
+
+
 
 
 
