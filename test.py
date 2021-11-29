@@ -1,7 +1,2 @@
-l = ['Ayten', 'Rüstəm', 'Hüseyn']
- 
-
-l.extend(['Yusif', 'Araz', 'Aydan'])
- 
-
-print(l)
+x = ['ab', 'cd', 'xd']
+print(len(list(map(list, x))))

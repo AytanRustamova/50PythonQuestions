@@ -408,3 +408,21 @@ print(l)
 
 * list.pop(obj=list[-1]) − pop metodu siyahıdan sonuncu elementi silir.
 
+
+
+## 15. What is TkInter?
+
+* TkInter Python kitabxanasıdır. GUI (graphical user interface) üçün toolkit'dir (alət). Əsasən, masaüstü proqramları üçün istifadə olunur. Rənglər, şriftlər, ölçülər və kursorlar kimi atributları mövcuddur.
+
+
+## 16. What is the output of the following?
+
+```py 
+x = ['ab', 'cd']
+print(len(map(list, x)))
+
+```
+
+## Answer
+
+* Listin uzunluğu 2 olduğu üçün, 2 qaytaracaq.
