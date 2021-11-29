@@ -349,5 +349,10 @@ x outside: global
 * Bəli Python obyekt yönümlü proqramlaşdırmadır. Obyekt yönümlü proqramlaşdırma classlardan ibarət olan sistemdir. OOP`nin konseptləri: Encapsulation, İnheritance, Abstact, Polymorphism. OOPnin əsas məntiqi proyekti müəyyən hissələrə (classlara) ayırıb bir birindən asılı olmayan hala gətirməsidir. Bu həm bir proyekt üstündə bir neçə nəfərin rahat işləməsini təmin edir həm də gələcəkdə yeni funksiyalar əlavə etməyi və ya dəyişiklik etməyi asanlaşdırır.
 
 
+## 13. What are Accessors, mutators, @property?
+
+* Pythonda Accessor`lar getter'lar deyə də adlanır. Hər hansısa bir value qaytaran funksiyalara accessorlar deyilir və əsasən dəyişilməyən valuelar olur. Mutatorlar isə setterlar olaraq adlanır. Bu funksiyalar isə adətən value dəyişmək üçün istifadə olunur. @property isə Pythonda bir decaratordur hansı ki, onun köməyi ilə bir funksiyanı funksiya atributu kimi istifadə edə bilirik. 
+
+
 
 
