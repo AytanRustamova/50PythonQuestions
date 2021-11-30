@@ -1119,7 +1119,28 @@ Output: 365
 * Python memory intensive task`lar üçün düzgün seçim deyil. Çünki python'nun scop'u memory intensive tasklar üçün nəzərdə tutlmayıb.
 
 
+## 49. What is the built-in function used in Python to iterate over a sequence of numbers?
 
+## Answer
+
+* Bunun üçün range(başlangıc, son, artım sayı) istifadə olunur.  
+
+```py 
+for i in range(1,10,2):
+    print (i)
+
+```
+
+Output
+
+```py 
+1
+3
+5
+7
+9
+
+```
   
 
 

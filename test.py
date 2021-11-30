@@ -1,8 +1,2 @@
-
-    
-myString ="I Love Python"
-for myCizar in myString:
-    myCizar == '' ''
-    continue
-print (myString)
-
+for i in range(1,10,2):
+    print (i)
