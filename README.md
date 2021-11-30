@@ -1142,6 +1142,26 @@ Output
 
 ```
   
+## 50. Is it possible to assign multiple var to values in list?
+
+
+## Answer
+
+* Listə bir neçə dənə value vermək istiyiriksə ',' -dən istifadə edirik.
+
+```py 
+
+>>> a,b,c,d = [1,2,3,4]
+>>> a
+1
+>>> b
+2
+>>> c
+3
+>>> d
+4
+
+```
 
 
 
