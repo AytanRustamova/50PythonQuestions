@@ -1108,6 +1108,18 @@ Output: 365
 
 
 
+## 48. What are some drawbacks of the Python language?
+
+
+## Answer 
+
+* Python high-level(insan dilinə ən yaxın dil) programlaşdırma dili olsa da sürətdə C, C++ (low level) kimi dillərdən geridə qalır. 
+* Hər nə qədər mobile developmentdə Python istifadə olunsa da, Python mobile üçün düzgün seçim deyil. Çünki, nə İOS nədə Android üçün native dil deyil. Ona görə də deployment proseslərində sürətdə problemlər ola bilər.
+* Bundan əlavə JDBC və ODBC texnologiyaları ilə müqayisə etdikdə Pythonda database access məsələsi limitlidir.
+* Python memory intensive task`lar üçün düzgün seçim deyil. Çünki python'nun scop'u memory intensive tasklar üçün nəzərdə tutlmayıb.
+
+
+
   
 
 

@@ -1,5 +1,8 @@
 
     
-try: 
-    if '1' != 1: 
-        raise
+myString ="I Love Python"
+for myCizar in myString:
+    myCizar == '' ''
+    continue
+print (myString)
+
